@@ -44,7 +44,7 @@ ibd_history_columns <- c("name",
                          "other_notes")
 
 #Source in my previous patient data
-ibd_database <- read_excel("/Users/danielmulder/OneDrive - Kingston Health Sciences Centre/Clinical/IBD.xlsx",
+ibd_database <- read_excel("~/IBD.xlsx",
                                 col_types = c("text", "date", "text", "text", "text", "text", "text", "text",
                                               "date", "text", "text", "text", "text", "text", "text", "text", "text",
                                               "text", "text", "text", "text", "text", "text", "text", "text", "text"))
